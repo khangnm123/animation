@@ -197,7 +197,7 @@ nav a{
     margin-bottom: 3%;
     padding: 50px;
     text-align: center;
-    box-shadow: 7px 7px 10px 0 rgb(76 110 245 / 10%);
+    box-shadow: 7px 7px 10px 0 rgb(76 110 245 / 40%);
     background: #fff;
 }
 .item i{
@@ -321,12 +321,15 @@ iframe{
 
 }
 .ob-items-left{
-    margin-top: -25px;
-    margin-bottom:20px;
+    margin-top: -8px;
+    margin-bottom: 5px;
+}
+.ob-items p{
+    color: #999;
 }
 .ob-items i{
-    width: 20%;
-    margin-top: 26px;
+    width: 30%;
+    margin-top: 10px;
     font-size: 35px;
     font-weight: 400;
 }
@@ -334,37 +337,43 @@ iframe{
     width: 50%;
     float: right;
     position: relative;
-    padding: 210px;
-    margin-top: -400px;
+    background: white;
+    padding: 100px;
+    margin-top: -416px;
+    box-shadow: 7px 7px 10px 0 rgb(56 79 56 / 32%);
     background-color: #f7f7f7;
-    border-radius: 5px;
 
 }
 .contact-state-us h2{
     margin-bottom: 100px;
 }
 .ob-form-bigger {
-    margin-top: -160px;
-    margin-left: -188px;
+    margin-top: -100px;
+    margin-left: -92px;
+    padding: 10px;
 }
 .form-control{
-    margin-bottom: 40px;
-    width: 146%;
-    padding: 18px;
+    margin-bottom: 18px;
+    width: 120%;
+    padding: 11px;
+    border: 1px solid #e6e6e6;
     border-radius: 8px;
 }
 .fr-email{
-    width: 145%;
+    width: 120%;
     height: 170px;
     padding: 15px;
+    border: 1px solid #e6e6e6;
 }
-button{
+.button{
     background-color: #ff9900;
-    width: 146%;
+    width: 120%;
     height: 50px;
     color: white;
     border: 1px;
-    border-radius: 20px;
+    position: relative;
+    margin-top: 19px;
+    border-radius: 9px;
 }
 #contact{
     color: #ff9900;
@@ -391,7 +400,7 @@ button a{
     justify-content: space-around;
 }
 .footer-content-list div{
-    width: 14%;
+    width: 15%;
 }
 .footer-content-list h3{
     font-size: 16px;
@@ -410,16 +419,14 @@ button a{
 }
 .button-two{
     background-color: #ff9900;
-    width: 50%;
+    width: 60px;
     height: 50px;
     color: white;
     border: 1px;
     border-radius: 0px;
     margin-top: 20px;
 }
-form{
-    display: flex;
-}
+
 .font-icon{
     display: flex;
     justify-content: space-around;
@@ -436,6 +443,45 @@ form{
 #font-icon{
     width: 100%;
     justify-content: space-between;
-    padding: 30px;
+    padding: 13px;
+    text-align: center;
     font-size: 30px;
+    letter-spacing: 7px;
+    margin-left: -43px;
+}
+#right .item:hover {
+    background: #ff9900;
+    color:white;
+}
+#fb{
+    background-color: #3b5998;
+    color: white;
+}
+.ob-form .button:hover{
+    background-color: #ff9900;
+}
+.apple{
+    display: flex;
+}
+#twitter{
+    background-color: #1da1f2;
+    color: white;
+}
+#drib{
+    background-color: #ea4c89;
+    color: white
+}
+#google{
+ background-color: #f44336;
+ color: white;   
+}
+#font-icon a{
+    display: -webkit-inline-box;
+    padding: 4px;
+    text-align: center;
+    width: 37px;
+    height: 37px;
+    font-size: 22px;
+    margin-right: 0px;
+    left: 10%;
 }

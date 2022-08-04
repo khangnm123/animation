@@ -194,7 +194,7 @@ nav a{
 }
 #services .item{
     margin-right: 2%;
-    margin-bottom: 3%;
+    margin-bottom: 5%;
     padding: 50px;
     text-align: center;
     box-shadow: 7px 7px 10px 0 rgb(76 110 245 / 40%);
@@ -207,6 +207,7 @@ nav a{
     text-align: center;
     color: white;
     padding: 50px;
+    margin-top: 50px;
     background-image: url('../img/bg.jpg');
     background-size: cover;
     overflow:auto;
@@ -291,6 +292,7 @@ nav a{
     margin-top: -100px;
     margin-right: 7px;
 }
+
 .our-content-listyle-three{
     padding: 22px 35px;
     margin-top: -84px;
@@ -314,6 +316,7 @@ iframe{
 .contact-state-us h2{
     text-align: center;
 }
+
 .ob-items{
     display: flex;
     width: 25%;
@@ -385,7 +388,7 @@ footer{
     margin-top: 51px;
     width: 100%;
     background-color: #1f1f1f;
-    height: 352px;
+    height: auto;
     position: absolute;
 
 }
@@ -484,4 +487,661 @@ button a{
     font-size: 22px;
     margin-right: 0px;
     left: 10%;
+}
+ .menu{
+    display: none;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 0px;
+    width: 100%;
+}
+.menuu button{
+    display: none;
+    float: right;
+    margin: 10px 90px;
+    padding: 5px;
+    width: 180px;
+    border-radius: 20px;
+}
+.footer-content-list h2{
+    font-size: 31px;
+    font-weight: normal;
+    text-align: left;
+}
+.footer-content-list div{
+    width: 20%;
+    margin: 3px 10px;
+}
+.text{
+    display: block;
+    margin: 0px 20px;
+    width: 100%;
+    text-align: left;
+}
+.title{
+    display: flex;
+    width: 1300px;
+    margin: 45px 300px;
+}
+.title2{
+    width: 100%;
+    margin: 0px 36px;
+}
+.title3{
+    width: 100%;
+}
+.title3 .text{
+    margin: 0px 18px;
+}
+.title4{
+    color: white;
+    font-weight: normal;
+    width: 100%;
+}
+.title2 .text{
+    width: 100%;
+    display: block;
+    margin: 0px 3px;
+    text-align: left;
+}
+
+.title3 h2{
+    color: white;
+    font-weight: normal;
+}
+.title h2{
+    color: white;
+    font-weight: normal;
+}
+.title2 h2{
+    color: white;
+    font-weight: normal;
+}
+.title4{
+    color: white;
+    font-weight: normal;
+}
+.title3 h3{
+    margin-bottom: 7%;
+    margin-top: 10%;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+title p{
+    color: #999;
+}
+.title2 p{
+    color: #999;
+}
+.title3 p{
+    color: #999;
+}
+.title4 p{
+    color: #999;
+    width: 377px;
+}
+.text p{
+    color: #999;
+    width: 200px;
+    line-height: 27px;
+    margin: 0px 0px;
+}
+.about{
+    margin: 25px 0px;
+    font-size: 31px;
+    font-weight: normal
+}
+.footer-content-list{
+    display: flex;
+    width: 992px;
+    color: white;
+    overflow: hidden;
+    justify-content: center;
+}   
+#font-icon{
+    display: flex;
+    margin: -4px -13px;
+    width: 80%;
+    justify-content: space-around;
+}
+.firstt{
+    width: 313px;
+}
+.button-two{
+    margin:17px 0px ;
+}
+.mailbox{
+    margin: 17px -1px;
+}
+@media only screen and (max-width:992px) {
+    .doghome ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menuu button{
+        display: block;
+    }
+    body{
+        display: block;
+    }
+    .wire{
+        display: flex;
+    }
+    .items{
+        width: 50%;
+    }
+    .statistics-content div{
+        width: 50%;
+    }
+    .header-center h2{
+        text-align: center;
+        font-size: 72px;
+        margin: 40px 5px;
+        line-height: 70px;
+        width: 100%;
+    }
+    .pet-services #right{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40%;
+        display: grid;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    #services{
+        padding:0px;
+        background-color: white;
+    }
+    .testominal-content div{
+        width: 75%;
+        margin: 0px 30px;
+        padding: 0px 10px;
+    }
+    .container{
+        display: flex;
+        padding: 0px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .testominal{
+        width: 992px;
+    }
+    .testominal-content p{
+        text-align: center;
+        margin-bottom: 50px;
+        width: 225px;
+    }
+    .our-content-listyle a{
+        text-decoration: none;
+        color: #1f1f1f;
+        font-weight: bold;
+    }
+    .our-content-listyle{
+       text-align: left;
+       border-radius: 5%;
+       border: solid 2px rgb(219, 219, 219);
+       width: 37%;
+       color: #1f1f1f;
+       font-size: 21px;
+       font-weight: 400;
+    }
+    .our-content-listyle-one{
+        margin: 10px 10px;
+    }
+    .our-content-listyle-two{
+        margin: 0px 10px;
+        padding: 0px;
+    }
+    .our-content-listyle-three{
+        margin:0px 10px;
+        padding:0px;
+    }
+    .contact-state-us{
+        padding: 0px 70px;
+    }
+    .ob-form{
+        padding: 100px;
+        margin-top: -440px;
+        border-radius: 20px;
+    }
+    .footer-content-list h2{
+        font-size: 31px;
+        font-weight: normal;
+        text-align: left;
+    }
+    .footer-content-list div{
+        width: 20%;
+        margin: 3px 10px;
+    }
+    .about{
+        margin: 25px 0px;
+        font-size: 31px;
+        font-weight: normal
+    }
+    .footer-content-list{
+        display: flex;
+        width: 992px;
+        color: white;
+        overflow: hidden;
+        justify-content: center;
+    }   
+    #font-icon{
+        display: flex;
+        margin: -4px -13px;
+    }
+    .firstt{
+        width: 313px;
+    }
+    .button-two{
+        margin:17px -10px ;
+    }
+    .mailbox{
+        margin: 19px -1px;
+    }
+
+.footer-content-list div{
+    width: 20%;
+    margin: 3px 10px;
+}
+.text{
+    display: block;
+    margin: 0px 20px;
+    text-align: left;
+}
+.title{
+    display: flex;
+    width:992px;
+    margin: 0;
+}
+.title2{
+    width: 100%;
+    margin: 0px -20px;
+}
+.title3{
+    width: 100%;
+}
+.title3 .text{
+    margin: 0px 38px;
+}
+.title4{
+    margin: 0px 18px;
+}
+.title2 .text{
+    width: 100%;
+    display: block;
+    margin: 0px 3px;
+    text-align: left;
+}
+.title3 h2{
+    color: white;
+    font-weight: normal;
+}
+.title h2{
+    color: white;
+    font-weight: normal;
+}
+.title2 h2{
+    color: white;
+    font-weight: normal;
+}
+.title4{
+    color: white;
+    font-weight: normal;
+}
+.title3 h3{
+    margin-bottom: 7%;
+    margin-top: 10%;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+title p{
+    color: #999;
+}
+.title2 p{
+    color: #999;
+}
+.title3 p{
+    color: #999;
+}
+.title4 p{
+    color: #999;
+    width: 300px;
+}
+.text p{
+    color: #999;
+    width: 200px;
+    margin: 0px 0px;
+}
+#font-icon{
+    width: 84%;
+    justify-content: space-between;
+    padding: 13px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+.about{
+    margin: 25px 0px;
+    font-size: 31px;
+    font-weight: normal
+}
+.footer-content-list{
+    display: flex;
+    width: 992px;
+    color: white;
+    overflow: hidden;
+    justify-content: center;
+}   
+#font-icon{
+    display: flex;
+    margin: -4px -13px;
+}
+.firstt{
+    width: 313px;
+}
+.button-two{
+    margin: 17px -1px;
+}
+.mailbox{
+    margin:16px -1px;
+}  
+} 
+@media only screen and (max-width:576px) {
+    .doghome ul{
+        display: none;
+        width: 576px;
+    }
+    .menu{
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 12px;
+        margin-right: 0px;
+        margin: 0px 0px;
+        width: 100%;
+    }
+    .menuu button{
+        display: block;
+        float: right;
+        margin: 10px 25px;
+        padding: 5px;
+        width: 110px;
+        border: 4px solid;
+        border-radius: 10px;
+    }
+    body{
+        display: block;
+    }
+    .wire{
+        display: block;
+    }
+    .items{
+        width: 100%;
+    }
+    .statistics-content div{
+        width: 100%;
+    }
+    .header-center h2{
+        text-align: center;
+        font-size: 27px;
+        margin: 40px 10px;
+        line-height: 30px;
+        width: 576px;
+    }
+    .img{
+        width: 576px;
+    }
+    .wireframe h3{
+        margin: 50px 10px;
+        font-size: 36px;
+    }
+    .left{
+        width: 576px;
+        text-align: left;
+        margin: 0px -2px;
+        background: whitesmoke;
+        display: block;
+    }
+    .left h3{
+        margin: 50px -20px;
+        font-size: 36px;
+    }
+    .pet-services p{
+        line-height: 2.5;
+        letter-spacing: 1px;
+        color: #999;
+        width: 576px;
+        margin: 0px -30px;
+    }
+    #services #right{
+        float: left;
+        display: block;
+        margin: 0px -1px;
+        background-color: whitesmoke;
+    }
+    #services .item{
+        margin: 19px 0px;
+        padding: 19px;
+        text-align: center;
+        width: 576px;
+        box-shadow: 7px 7px 10px 0 rgb(76 110 245 / 40%);
+        background: #fff;
+    }
+    #services{
+        display: block;
+    }
+    .testominal-content{
+        display: block;
+    }
+    .pet-services #right{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40%;
+        display: grid;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    #services{
+        padding:0px;
+        background-color: white;
+    }
+    .testominal-content div{
+        width: 85%;
+        margin: 0px 30px;
+        padding: 0px 10px;
+    }
+    .container{
+        display: flex;
+        padding: 0px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .testominal{
+        width: 576px;
+    }
+    .testominal-content p{
+        margin-bottom: 50px;
+        width: 450px;
+    }
+    .our-bigger h3{
+        text-align: center;
+        margin: 60px 0px;
+    }
+    .our-bigger img{
+        width: 100%;
+    }
+    .our-content-firt{
+        margin-top: 50px;
+        width: 576px;
+    }
+    .our-content-first{
+        border-radius: 0%;
+        border: solid 2px rgb(219, 219, 219);
+        margin: -7px -1px;
+        padding: 9px;
+    }
+    .our-content-list{
+        width: 100%;
+        display: block;
+    }
+    .our-content-listyle a{
+        text-decoration: none;
+        color: #1f1f1f;
+        font-weight: bold;
+    }
+    .our-content-listyle{
+        text-align: left;
+        border-radius: 0%;
+        border: solid 2px rgb(219, 219, 219);
+        width: 576px;
+        color: #1f1f1f;
+        font-size: 21px;
+        margin-top: 50px;
+        font-weight: 400;
+    }
+    .our-content-listyle-one{
+        margin: 10px 10px;
+    }
+    .our-content-listyle-two{
+        margin: 0px 10px;
+        padding: 0px;
+    }
+    .our-content-listyle-three{
+        margin:0px 10px;
+        padding:0px;
+    }
+    .contact-state-us{
+        padding: 0px 70px;
+    }
+    .contact-state-us-content{
+        width: 576px;
+    }
+    .ob-form{
+        width: 500px;
+        background: white;
+        padding: 100px;
+        margin: 0;
+        box-shadow: 7px 7px 10px 0 rgb(56 79 56 / 32%);
+        background-color: #f7f7f7;
+        float: none;
+    }
+    .ob-items{
+        display: flex;
+        width: 50%;
+        margin-top: 0px;
+    }
+    .footer-content-list h2{
+        font-size: 31px;
+        font-weight: normal;
+        text-align: left;
+    }
+    .footer-content-list div{
+        width: 20%;
+        margin: 3px 10px;
+    }
+    .text{
+        width: 40%;
+        display: block;
+        margin: 0px 20px;
+        text-align: left;
+    }
+    .title{
+        display: flex;
+        width: 576px;
+        flex-wrap: wrap;
+    }
+    .title2{
+        width: 60%;
+        margin: 0px -20px;
+    }
+    .title3{
+        width: 100%;
+    }
+    .title3 .text{
+        margin: 0px 18px;
+    }
+    .title4{
+        margin: 0px 18px;
+    }
+    .title2 .text{
+        width: 70%;
+        display: block;
+        margin: 0px 20px;
+        text-align: left
+    }
+    .title3 h2{
+        color: white;
+        font-weight: normal;
+    }
+    .title h2{
+        color: white;
+        font-weight: normal;
+    }
+    .title2 h2{
+        color: white;
+        font-weight: normal;
+    }
+    .title4{
+        color: white;
+        font-weight: normal;
+    }
+    .title3 h3{
+        margin-bottom: 7%;
+        margin-top: 10%;
+        font-size: 20px;
+        color: white;
+        font-weight: normal;
+    }
+    title p{
+        color: #999;
+    }
+    .title2 p{
+        color: #999;
+    }
+    .title3 p{
+        color: #999;
+    }
+    .title4 p{
+        color: #999;
+    }
+    .text p{
+        color: #999;
+        width: 100%;
+    }
+    #font-icon{
+        width: 84%;
+        justify-content: space-between;
+        padding: 13px;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 7px;
+    }
+    .about{
+        margin: 25px 0px;
+        font-size: 31px;
+        font-weight: normal
+    }
+    .footer-content-list{
+        display: flex;
+        width: 992px;
+        color: white;
+        overflow: hidden;
+        justify-content: center;
+    }   
+    #font-icon{
+        display: flex;
+        margin: -4px -19px;
+    }
+    .firstt{
+        width: 313px;
+    }
+    .button-two{
+        margin:17px -10px ;
+    }
+    .mailbox{
+        margin: 19px -1px;
+    }
 }
